@@ -17,12 +17,12 @@ Page({
     my.navigateTo({ url: "/pages/buyTicket/buyTicket" });
   },
   onSmartOffersTap(e) {
-    alert("Smart Offers");
+    my.navigateTo({ url: "/pages/smartOffers/smartOffers" });
   },
   onJ4UTown(e) {
     my.navigateTo({ url: "/pages/j4Town/j4Town" });
   },
-  onShakeTap(e) {
+  onUpgradeTap(e) {
     alert("Shake everyday");
   },
   onJ4UDataTap(e) {
