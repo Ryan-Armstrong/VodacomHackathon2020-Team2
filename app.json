@@ -6,7 +6,8 @@
     "pages/purchaseSummary/purchaseSummary",
     "pages/result/result",
     "pages/buyTicket/buyTicket",
-    "pages/buyVoice/buyVoice"
+    "pages/buyVoice/buyVoice",
+    "pages/j4Town/j4Town"
   ],
   "window": {
     "defaultTitle": "Just 4 You",

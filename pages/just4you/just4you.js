@@ -8,7 +8,7 @@ Page({
     this.setData({ user: app.data.selectedUser });
   },
   onVoiceTap(e) {
-    my.navigateTo({url: "/pages/buyVoice/buyVoice"});
+    my.navigateTo({ url: "/pages/buyVoice/buyVoice" });
   },
   onInsuranceTap(e) {
     alert("Insurance");
@@ -20,7 +20,7 @@ Page({
     alert("Smart Offers");
   },
   onJ4UTown(e) {
-    alert("J4U Town");
+    my.navigateTo({ url: "/pages/j4Town/j4Town" });
   },
   onShakeTap(e) {
     alert("Shake everyday");

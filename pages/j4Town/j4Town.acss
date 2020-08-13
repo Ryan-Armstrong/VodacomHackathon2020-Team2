@@ -1,0 +1,20 @@
+.image-success {
+  width: 30vw;
+  height: 18vh;
+  margin-top: 20vh;
+  background-color: #fff;
+  align-self: center;
+}
+
+.success {
+  margin-top: 5vh;
+  width: 100%;
+  align-content: center;
+}
+
+.text-success {
+  margin-top: 10vh;
+  width: 70vw;
+  margin-bottom: 15vh;
+  align-content: center;
+}
