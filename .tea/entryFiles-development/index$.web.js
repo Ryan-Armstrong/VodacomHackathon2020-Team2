@@ -18,4 +18,5 @@ require('../../pages/purchaseSummary/purchaseSummary?hash=fa74acd9b4b6bf272fdf20
 require('../../pages/result/result?hash=a3af946dd54bfb7237124ca231e85e52743c3ad9');
 require('../../pages/buyTicket/buyTicket?hash=74a8efa6e5036748602592584c15f9e671075d8d');
 require('../../pages/buyVoice/buyVoice?hash=8ad62148dc6231314cad916b0a61c2533f90d895');
-require('../../pages/insurance/insurance?hash=32d7d2807ed4e666ef03b4b3fe8c38ecf2e34e68');
+require('../../pages/j4Town/j4Town?hash=a3af946dd54bfb7237124ca231e85e52743c3ad9');
+require('../../pages/smartOffers/smartOffers?hash=a3af946dd54bfb7237124ca231e85e52743c3ad9');
