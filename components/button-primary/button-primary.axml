@@ -1,0 +1,5 @@
+<view class="button-top" onTap="onTap">
+  <view>
+    <text class="text-20-white text-primary-top">{{textPrimary}}</text>
+  </view>
+</view>

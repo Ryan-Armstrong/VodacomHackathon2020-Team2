@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tile-ticket-bundle": "/components/tile-ticket-bundle/tile-ticket-bundle"
+  },
+  "defaultTitle": "Just 4 You Buy Ticket"
+}

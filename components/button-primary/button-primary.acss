@@ -1,0 +1,17 @@
+.button-top {
+  border-radius: 6px;
+  width: 80vw;
+  height: 6.5vh;
+  position: relative;
+  background-color: #e60000;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.text-primary-top {
+  position: absolute;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 2vh;
+}

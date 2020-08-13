@@ -1,0 +1,8 @@
+<view class="card-tp item-selected" onTap="onTap">
+  <view class="view-column">
+    <view class="view-container">
+      <image id="tre" class="image-payment-tp" mode="scaleToFill" src={{srcPrimary}}/>
+    </view>
+    <text class="text-14-grey-bold text-primary-tp">{{textPrimary}}</text>
+  </view>
+</view>

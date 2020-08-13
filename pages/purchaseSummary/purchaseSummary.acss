@@ -1,0 +1,50 @@
+.view-line1-ps {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 85%;
+  top: 5vh;
+}
+
+.view-line2-ps {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 85%;
+  top: 3vh;
+}
+
+.text1-ps {
+  text-align: left;
+  width: 100%;
+  margin-left: 11vw;
+  margin-top: 6vh;
+}
+
+.text2-ps {
+  text-align: left;
+  width: 100%;
+  margin-left: 11vw;
+  margin-top: 4.5vh;
+}
+
+.image-lock-ps {
+  width: 4vw;
+  height: 2vh;
+  margin-top: 4vh;
+}
+
+.text-secure-checkout-ps {
+  width: 100%;
+  text-align: left;
+  margin-left: 3vw;
+}
+
+.text-info-ps {
+  margin-top: 2vh;
+}
+
+.text-tc-ps {
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+
+.view-row-ps {
+  justify-content: center;
+}

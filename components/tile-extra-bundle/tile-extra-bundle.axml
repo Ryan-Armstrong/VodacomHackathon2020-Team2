@@ -1,0 +1,12 @@
+<view class="card-teb  {{isSelected == true ? 'item-selected' : ''}}" data-bundle="{{textSecondary}}" onTap="onTap">
+  <view class="view-column">
+    <view class="view-container">
+      <image id="tre" class="image-oval-teb" mode="scaleToFill" src={{srcPrimary}}/>
+    </view>
+    <text class="text-24-grey-bold text-primary-teb">{{textPrimary}}</text>
+    <text class="text-14-grey text-secondary-teb">{{textSecondary}}</text>
+    <view class="view-line-teb"/>
+    <text class="text-18-grey text-amount-teb">{{textAmount}}</text>
+    <text class="text-12-grey text-info-teb">{{textInfo}}</text>
+  </view>
+</view>

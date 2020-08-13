@@ -1,0 +1,61 @@
+.card-ttb {
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-radius: 8px;
+  width: 43vw;
+  height: 25vh;
+  margin-top: 2vh;
+  position: relative;
+  background-color: #fcfcfc;
+}
+
+.text-primary-ttb {
+  position: absolute;
+  display: block;
+  top: 8vh;
+  width: 100%;
+  text-align: center;
+}
+
+.text-description-ttb {
+  position: absolute;
+  display: block;
+  top: 4vh;
+  width: 100%;
+  text-align: center;
+}
+
+.text-secondary-ttb {
+  position: absolute;
+  display: block;
+  top: 13vh;
+  text-align: center;
+  width: 100%;
+}
+
+.text-info-ttb {
+  position: absolute;
+  display: block;
+  top: 20vh;
+  text-align: center;
+  width: 100%;
+}
+
+.text-discount-ttb {
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 50%;
+  background-color: rgb(47, 182, 80);
+  border-radius: 8px 0px;
+  height: 2.6vh;
+  line-height: 2.6vh;
+}
+
+.view-line {
+  border-bottom: 5px solid;
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 70%;
+  left: 6.5vw;
+  top: 18vh;
+}

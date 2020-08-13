@@ -1,0 +1,17 @@
+<view>
+  <view class="card-tol" onTap="onTap">
+    <view>
+      <image id="gre" class="image-background-tol" mode="scaleToFill" src={{srcPrimary}}/>
+    </view>
+    <view>
+      <image id="tre" class="image-oval-tol" mode="scaleToFill" src={{srcSecondary}}/>
+    </view>
+    <view>
+      <image id="tre" class="image-expand-tol" mode="scaleToFill" src="../../assets/images/rightExpand.png"/>
+    </view>
+    <view>
+      <text class="text-16-black text-primary-tol">{{textPrimary}}</text>
+      <text class="text-14-black text-secondary-tol">{{textSecondary}}</text>
+    </view>
+  </view>
+</view>

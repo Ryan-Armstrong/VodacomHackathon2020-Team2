@@ -1,0 +1,15 @@
+<view class="card-tom" onTap="onTap">
+  <view>
+    <image id="gre" class="image-background-tom" mode="scaleToFill" src={{srcPrimary}}/>
+  </view>
+  <view>
+    <image id="tre" class="image-oval-tom" mode="scaleToFill" src={{srcSecondary}}/>
+  </view>
+  <view>
+    <image id="tre" class="image-expand-tom" mode="scaleToFill" src="../../assets/images/rightExpand.png"/>
+  </view>
+  <view>
+    <text class="text-16-black text-primary-tom">{{textPrimary}}</text>
+    <text class="text-14-black text-secondary-tom">{{textSecondary}}</text>
+  </view>
+</view>

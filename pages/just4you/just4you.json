@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "tile-offer-large": "/components/tile-offer-large/tile-offer-large",
+    "tile-offer-medium": "/components/tile-offer-medium/tile-offer-medium",
+    "tile-offer-small": "/components/tile-offer-small/tile-offer-small",
+    "header-main": "/components/header-main/header-main"
+  },
+
+  "defaultTitle": "Just 4 You"
+}

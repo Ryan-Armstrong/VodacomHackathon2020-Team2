@@ -1,0 +1,18 @@
+<view class="view-container-main bundle-page">
+  <view class="view-column">
+    <view class="view-row">
+      <tile-bundle textDiscount="SAVE {{dataBundles[0].discount}}%" textPrimary="{{dataBundles[0].bundleSize}}" textSecondary="R{{dataBundles[0].amount}}" text-info="{{dataBundles[0].validText}}" index="0" onTap="onBundleSelect"/>
+      <tile-bundle textDiscount="SAVE {{dataBundles[1].discount}}%" textPrimary="{{dataBundles[1].bundleSize}}" textSecondary="R{{dataBundles[1].amount}}" text-info="{{dataBundles[1].validText}}" index="1" onTap="onBundleSelect"/>
+    </view>
+    <view class="view-row">
+      <tile-bundle textDiscount="SAVE {{dataBundles[2].discount}}%" textPrimary="{{dataBundles[2].bundleSize}}" textSecondary="R{{dataBundles[2].amount}}" text-info="{{dataBundles[2].validText}}" index="2" onTap="onBundleSelect"/>
+      <tile-bundle textDiscount="SAVE {{dataBundles[3].discount}}%" textPrimary="{{dataBundles[3].bundleSize}}" textSecondary="R{{dataBundles[3].amount}}" text-info="{{dataBundles[3].validText}}" index="3" onTap="onBundleSelect"/>
+    </view>
+    <view class="view-row">
+      <tile-bundle textDiscount="SAVE {{dataBundles[4].discount}}%" textPrimary="{{dataBundles[4].bundleSize}}" textSecondary="R{{dataBundles[4].amount}}" text-info="{{dataBundles[4].validText}}" index="4" onTap="onBundleSelect"/>
+      <tile-bundle textDiscount="SAVE {{dataBundles[5].discount}}%" textPrimary="{{dataBundles[5].bundleSize}}" textSecondary="R{{dataBundles[5].amount}}" text-info="{{dataBundles[5].validText}}" index="5" onTap="onBundleSelect"/>
+    </view>
+    <view class="view-row">
+    </view>
+  </view>
+</view>

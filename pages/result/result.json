@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "button-primary": "/components/button-primary/button-primary"
+  }
+}

@@ -1,0 +1,12 @@
+<view class="card-tos" onTap="onTap">
+  <view>
+    <image id="gre" class="image-background-tos" mode="scaleToFill" src={{srcPrimary}}/>
+  </view>
+  <view>
+    <image id="tre" class="image-expand-tos" mode="scaleToFill" src="../../assets/images/rightExpand.png"/>
+  </view >
+  <view>
+    <text class="text-16-black text-primary-tos">{{textPrimary}}</text>
+  </view>
+</view>
+</view>

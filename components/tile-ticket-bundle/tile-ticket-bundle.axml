@@ -1,0 +1,10 @@
+<view class="card-ttb" onTap="onTap" data-index="{{index}}">
+  <view>
+    <text class="text-12-white text-discount-ttb">{{textDiscount}}</text>
+    <text class="text-18-grey-bold  text-description-ttb">{{textDescription}}</text>
+    <text class="text-24-grey-bold text-primary-ttb">{{textPrimary}}</text>
+    <text class="text-24-grey text-secondary-ttb">{{textSecondary}}</text>
+    <view class="view-line"/>
+    <text class="text-12-grey text-info-ttb">{{textInfo}}</text>
+  </view>
+</view>

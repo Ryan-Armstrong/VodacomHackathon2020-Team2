@@ -1,0 +1,58 @@
+.card-teb {
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-radius: 8px;
+  width: 26vw;
+  height: 25vh;
+  margin-top: 2vh;
+  position: relative;
+  background-color: #fcfcfc;
+}
+
+.text-primary-teb {
+  position: absolute;
+  display: block;
+  top: 4vh;
+  width: 100%;
+  text-align: center;
+}
+
+.text-secondary-teb {
+  position: absolute;
+  display: block;
+  top: 9vh;
+  left: 2vw;
+  text-align: center;
+  width: 80%;
+}
+
+.text-info-teb {
+  position: absolute;
+  display: block;
+  top: 21.5vh;
+  text-align: center;
+  width: 100%;
+}
+
+.text-amount-teb {
+  position: absolute;
+  display: block;
+  top: 16.5vh;
+  text-align: center;
+  width: 100%;
+}
+
+.view-line-teb {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 70%;
+  top: 15.5vh;
+}
+
+.image-oval-teb {
+  height: 3vh;
+  width: 5.5vw;
+  top: 0.5vh;
+  position: absolute;
+  display: block;
+  left: 10vw;
+}

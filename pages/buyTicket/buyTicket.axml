@@ -1,0 +1,17 @@
+<view class="view-container-main bundle-page">
+  <view class="view-column">
+    <view class="view-row">
+      <tile-ticket-bundle textDiscount="SAVE {{ticketBundles[0].discount}}%" textDescription="{{ticketBundles[0].bundleName}}" textPrimary="{{ticketBundles[0].bundleSize}}" textSecondary="R{{ticketBundles[0].amount}}" text-info="{{ticketBundles[0].validText}}" index="0" onTap="onBundleSelect"/>
+      <tile-ticket-bundle textDiscount="SAVE {{ticketBundles[1].discount}}%" textDescription="{{ticketBundles[1].bundleName}}" textPrimary="{{ticketBundles[1].bundleSize}}" textSecondary="R{{ticketBundles[1].amount}}" text-info="{{ticketBundles[1].validText}}" index="1" onTap="onBundleSelect"/>
+    </view>
+    <view class="view-row">
+      <tile-ticket-bundle textDiscount="SAVE {{ticketBundles[2].discount}}%" textDescription="{{ticketBundles[2].bundleName}}" textPrimary="{{ticketBundles[2].bundleSize}}" textSecondary="R{{ticketBundles[2].amount}}" text-info="{{ticketBundles[2].validText}}" index="2" onTap="onBundleSelect"/>
+      <tile-ticket-bundle textDiscount="SAVE {{ticketBundles[3].discount}}%" textDescription="{{ticketBundles[3].bundleName}}" textPrimary="{{ticketBundles[3].bundleSize}}" textSecondary="R{{ticketBundles[3].amount}}" text-info="{{ticketBundles[3].validText}}" index="3" onTap="onBundleSelect"/>
+    </view>
+    <view class="view-row">
+      <tile-ticket-bundle textDiscount="SAVE {{ticketBundles[4].discount}}%" textDescription="{{ticketBundles[4].bundleName}}" textPrimary="{{ticketBundles[4].bundleSize}}" textSecondary="R{{ticketBundles[4].amount}}" text-info="{{ticketBundles[4].validText}}" index="4" onTap="onBundleSelect"/>
+    </view>
+    <view class="view-row">
+    </view>
+  </view>
+</view>

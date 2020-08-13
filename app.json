@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/userSelect/userSelect",
+    "pages/just4you/just4you",
+    "pages/buyData/buyData",
+    "pages/purchaseSummary/purchaseSummary",
+    "pages/result/result",
+    "pages/buyTicket/buyTicket",
+    "pages/buyVoice/buyVoice"
+  ],
+  "window": {
+    "defaultTitle": "Just 4 You",
+    "titleBarColor": "#e60000"
+  }
+}

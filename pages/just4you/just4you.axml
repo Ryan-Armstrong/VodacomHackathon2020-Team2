@@ -1,0 +1,20 @@
+<view class="view-container-main">
+  <view class="view-column">
+    <tile-offer-large onTap="onVoiceTap" srcPrimary="../../assets/images/backgroundLady.png" srcSecondary="../../assets/images/phoneOval.png" textPrimary="Just 4 You Voice" textSecondary="Voice deals tailor made for you"/>
+    <view class="view-row">
+      <tile-offer-medium onTap="onInsuranceTap" srcPrimary="../../assets/images/backgroundInsurance.jpg" srcSecondary="../../assets/images/insuranceOval.png" textPrimary="Insurance" textSecondary="Protect your gadgets."/>
+      <view>
+        <tile-offer-small onTap="onTicketTap" srcPrimary="../../assets/images/ticket.png" textPrimary="Tickets"/>
+        <tile-offer-small onTap="onSmartOffersTap" srcPrimary="../../assets/images/giftBox.png" textPrimary="Smart Offers"/>
+      </view>
+    </view>
+    <tile-offer-large onTap="onJ4UTown" srcPrimary="../../assets/images/backgroundTown.jpg" srcSecondary="../../assets/images/homeOval.png" textPrimary="Just 4 You Town" textSecondary="Taylor-made deals in your location."/>
+    <view class="view-row">
+      <tile-offer-medium onTap="onShakeTap" srcPrimary="../../assets/images/backgroundShake.jpg" srcSecondary="../../assets/images/shakeOval.png" textPrimary="Shake Everyday" textSecondary="Shake to earn rewards."/>
+      <view>
+        <tile-offer-small onTap="onJ4UDataTap" srcPrimary="../../assets/images/doubleArrow.png" textPrimary="Just 4 You Data"/>
+        <tile-offer-small onTap="onFAQTap" srcPrimary="../../assets/images/questionMark.png" textPrimary="FAQ's"/>
+      </view>
+    </view>
+  </view>
+</view>

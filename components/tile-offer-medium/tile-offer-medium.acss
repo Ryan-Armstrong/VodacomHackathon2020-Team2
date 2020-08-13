@@ -1,0 +1,51 @@
+.card-tom {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px; /* 5px rounded corners */
+  border-radius: 14px;
+  width: 43vw;
+  height: 32vh;
+  margin-top: 2vh;
+  position: relative;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.image-background-tom {
+  border-radius: 14px 14px 0 0;
+  height: 16vh;
+  width: 100%;
+}
+
+.image-oval-tom {
+  height: 8vh;
+  width: 13vw;
+  top: -4vh;
+  position: absolute;
+  display: block;
+  margin-left: 3vw;
+}
+
+.image-expand-tom {
+  height: 2vh;
+  width: 4vw;
+  top: 10vh;
+  position: absolute;
+  display: block;
+  margin-left: 36vw;
+}
+
+.text-primary-tom {
+  position: absolute;
+  display: block;
+  left: 4vw;
+  top: 4vh;
+  text-align: left;
+}
+
+.text-secondary-tom {
+  position: absolute;
+  display: block;
+  margin-left: 4vw;
+  top: 7.5vh;
+  text-align: left;
+  width: 73%;
+}

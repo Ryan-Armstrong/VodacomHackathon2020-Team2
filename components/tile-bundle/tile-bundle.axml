@@ -1,0 +1,9 @@
+<view class="card-tb" onTap="onTap" data-index="{{index}}">
+  <view>
+    <text class="text-12-white text-discount-tb">{{textDiscount}}</text>
+    <text class="text-28-grey-bold text-primary-tb">{{textPrimary}}</text>
+    <text class="text-24-grey text-secondary-tb">{{textSecondary}}</text>
+    <view class="view-line"/>
+    <text class="text-12-grey text-info-tb">{{textInfo}}</text>
+  </view>
+</view>

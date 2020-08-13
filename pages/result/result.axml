@@ -1,0 +1,15 @@
+<view class="view-container-main">
+  <view class="view-column">
+    <view>
+      <image class="image-success" mode="scaleToFill" src="../../assets/images/success.png"/>
+    </view>
+    <view class="view-column">
+      <text class="text-24-grey success">Success</text>
+      <text class="text-16-grey text-success">You have successfully purchased {{selectedBundle.bundleSize}} to be allocated today for {{selectedBundle.valid}}.</text>
+      <view a:if="{{showMessage}}">
+        <text class="text-16-grey text-success">Your additional {{selectedExtraBundle.bundleSize}} {{selectedExtraBundle.bundleType}} bundle will also be allocated.</text>
+      </view>
+      <button-primary class="button-success" textPrimary="Okay" onTap="goJ4U"/>
+    </view>
+  </view>
+</view>

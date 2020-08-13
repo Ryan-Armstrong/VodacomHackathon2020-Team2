@@ -1,0 +1,18 @@
+<view class="card-hs" onTap="onTap">
+  <text class="text-12-white text-discount-tb">JUST 4 YOU</text>
+  <view class="view-column">
+    <text class="text-21-white text-purchase-summary-hs">Purchase summary</text>
+    <view class="view-container">
+      <image id="tre" class="image-close-hs" mode="scaleToFill" src="../../assets/images/close.png" onTap="onClose"/>
+    </view>
+    <text class="text-48-white-bold text-primary-hs">{{textPrimary}}</text>
+    <text class="text-16-white-bold text-secondary-hs">{{textSecondary}}</text>
+    <text class="text-16-white  text-cell-number-hs">{{textCellNumber}}</text>
+    <view class="view-line-hs"/>
+    <view class="view-row">
+      <text class="text-18-white  text-total-hs">Total:</text>
+      <text class="text-34-white text-amount-hs">{{textAmount}}</text>
+    </view>
+  </view>
+</view>
+

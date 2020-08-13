@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "tile-extra-bundle": "/components/tile-extra-bundle/tile-extra-bundle",
+    "tile-payment": "/components/tile-payment/tile-payment",
+    "header-summary": "/components/header-summary/header-summary",
+    "button-primary": "/components/button-primary/button-primary"
+  },
+  "defaultTitle": ""
+}

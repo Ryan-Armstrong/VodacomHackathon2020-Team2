@@ -1,0 +1,26 @@
+<view class="view-container-main">
+  <view class="view-column">
+    <header-summary textPrimary="{{selectedBundle.bundleSize}}" textSecondary="{{selectedBundle.bundleType}} ({{selectedBundle.valid}})" textCellNumber="For {{selectedUser.number}}" textAmount="R{{total}}" onClose="onClose"/>
+    <view class="view-line1-ps"/>
+    <text class="text-18-grey-bold text1-ps">You may also like:</text>
+    <view class="view-row">
+      <tile-extra-bundle srcPrimary="../../assets/images/whatsappLogo.png" textPrimary="{{extraBundles[0].bundleSize}}" textSecondary="{{extraBundles[0].bundleType}}" textInfo="{{extraBundles[0].bundleInfo}}" textAmount="R{{extraBundles[0].amount}}" onTap="onSelectedBundleExtra" isSelected="{{selectedExtra[0]}}"/>
+      <tile-extra-bundle srcPrimary="../../assets/images/netflixLogo.png" textPrimary="{{extraBundles[1].bundleSize}}" textSecondary="{{extraBundles[1].bundleType}}" textInfo="{{extraBundles[1].bundleInfo}}" textAmount="R{{extraBundles[1].amount}}" onTap="onSelectedBundleExtra" isSelected="{{selectedExtra[1]}}"/>
+      <tile-extra-bundle srcPrimary="../../assets/images/showmaxLogo.png" textPrimary="{{extraBundles[2].bundleSize}}" textSecondary="{{extraBundles[2].bundleType}}" textInfo="{{extraBundles[2].bundleInfo}}" textAmount="R{{extraBundles[2].amount}}" onTap="onSelectedBundleExtra"isSelected="{{selectedExtra[2]}}"/>
+    </view>
+    <view class="view-line2-ps"/>
+    <text class="text-18-grey-bold text2-ps">You will be paying by:</text>
+    <tile-payment srcPrimary="../../assets/images/vodapay.png" textPrimary="VodaPay"/>
+    <view>
+      <image id="tre" class="image-lock-ps" mode="scaleToFill" src="../../assets/images/lock.png"/>
+      <text class="text-14-grey-bold text-secure-checkout-ps">Secure checkout</text>
+    </view>
+    <view>
+      <text class="text-14-grey text-info-ps">By selecting 'Buy now' you agree to</text>
+      <text class="text-14-blue text-tc-ps">T and Cs</text>
+    </view>
+    <view>
+      <button-primary textPrimary="Buy now" onTap="onBuyNow" />
+    </view>
+  </view>
+</view>

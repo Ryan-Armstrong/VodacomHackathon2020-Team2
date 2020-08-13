@@ -1,0 +1,3 @@
+<view class="toolbar-bg"> 
+ <text class="text-21-white text-toolbar-bg">{{textPrimary}}</text>
+</view>

@@ -1,0 +1,18 @@
+<view class="view-container-main">
+  <view class="view-column">
+    <view>
+      <image class="header-image" background-size="cover" src="../../assets/images/backgroundJust4You.png"/>
+    </view>
+    <view class="view-container">
+      <picker-view value="{{value}}" onChange="onChange">
+        <picker-view-column>
+          <view>Greg</view>
+          <view>Mpho</view>
+        </picker-view-column>
+      </picker-view>
+    </view>
+    <view>
+      <button-primary textPrimary="J4U" onTap="goJ4U" />
+    </view>
+  </view>
+</view>

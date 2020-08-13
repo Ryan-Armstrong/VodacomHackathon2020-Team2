@@ -1,0 +1,89 @@
+.card-hs {
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 8px 0px;
+  border-radius: 0px 0px 10px 10px;
+  width: 100vw;
+  height: 45vh;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    rgb(169, 0, 0),
+    rgb(230, 0, 0),
+    rgb(255, 0, 0)
+  );
+}
+
+.image-close-hs {
+  height: 4vh;
+  width: 5vw;
+  top: 2vh;
+  position: absolute;
+  display: block;
+  margin-left: 91vw;
+}
+
+.text-purchase-summary-hs {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 5vh;
+  width: 100%;
+}
+
+.text-primary-hs {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 11vh;
+  width: 100%;
+}
+
+.text-secondary-hs {
+  position: absolute;
+  display: block;
+  top: 20vh;
+  text-align: center;
+  width: 100%;
+}
+
+.text-cell-number-hs {
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 24vh;
+  width: 100%;
+}
+
+.text-amount-hs {
+  position: absolute;
+  display: block;
+  text-align: right;
+  top: 34vh;
+  width: 86%;
+}
+
+.text-total-hs {
+  position: absolute;
+  display: block;
+  text-align: left;
+  top: 36vh;
+  left: 8vw;
+  width: 100%;
+}
+
+.text-discount-tb {
+  position: absolute;
+  display: block;
+  text-align: center;
+  width: 25%;
+  background-color: #eb9700;
+  border-radius: 0px 0px 8px 0px;
+  height: 2.6vh;
+  line-height: 2.6vh;
+}
+
+.view-line-hs {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 85%;
+  top: 31vh;
+  opacity: 0.54;
+}

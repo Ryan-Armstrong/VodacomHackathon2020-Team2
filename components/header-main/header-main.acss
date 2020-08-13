@@ -1,0 +1,15 @@
+.toolbar-bg{
+  box-shadow: rgba(0,0,0,0.2) 2px 4px 8px 0px;
+  width: 100vw;
+  height: 10vh;
+  position: relative;
+  background-color: #e60000;
+}
+
+.text-toolbar-bg{
+  position: absolute;
+  display: block;
+  text-align: center;
+  top: 2vh;
+  width: 100%;
+}
