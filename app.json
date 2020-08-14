@@ -8,7 +8,8 @@
     "pages/buyTicket/buyTicket",
     "pages/buyVoice/buyVoice",
     "pages/j4Town/j4Town",
-    "pages/smartOffers/smartOffers"
+    "pages/smartOffers/smartOffers",
+    "pages/insurance/insurance"
   ],
   "window": {
     "defaultTitle": "Just 4 You",

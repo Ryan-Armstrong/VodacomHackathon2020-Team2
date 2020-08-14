@@ -1,0 +1,47 @@
+.card-bg {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 90vw;
+  height: 30vh;
+  margin-top: 3vh;
+  position: relative;
+}
+
+.insurance{
+  height: 8vh;
+  width: 13vw;
+  margin-top: 8vh;
+  position: absolute;
+  display: block; 
+  margin-left: -35vw;
+}
+
+.insurance-type  {
+ margin-top: 8vh;
+ height: 8vh;
+ width: 60vw;
+ text-align: left;
+ position: absolute;
+ display: block;
+ margin-left: 10vw;
+}
+
+.insurance-details{
+ margin-top: 15vh;
+ height: 8vh;
+ width: 75vw;
+ text-align: left;
+ position: absolute;
+ display: block;
+ margin-left: -2vw;
+}
+
+.quote {
+margin-top: 25vh;
+height: 8vh;
+width: 20vw;
+margin-left: 30vw;
+position: absolute;
+display: block;
+}

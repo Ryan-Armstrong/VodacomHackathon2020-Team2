@@ -1,0 +1,17 @@
+<view class="card-bg">
+<view class="view-column">
+   <view class="view-row">
+  <image class="insurance"  src={{srcPrimary}}/>
+  </view>
+  <view class="view-row">
+    <text class="text-24-grey insurance-type">{{textPrimary}}</text>
+ </view>
+ <view class="view-column">
+   <text class="text-16-grey-bold insurance-details">{{textSecondary}}</text>
+    </view>
+    <view class="view-column">
+       <text class="text-16-red quote">{{textTertiary}}</text>
+    </view> 
+ </view>
+</view
+

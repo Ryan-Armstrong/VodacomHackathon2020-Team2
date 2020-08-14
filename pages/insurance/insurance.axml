@@ -1,3 +1,10 @@
-<view>
-  New Page
+<view class="view-container-main">
+  <view class="view-column">
+  <view class="view-column">
+     <tile-insurance-large srcPrimary="../../assets/images/phoneCover.png" textPrimary="Device insurance" textSecondary="Reduced prices, easy claims process and replacement devices in 48 hours. Only new devices are insured." textTertiary="GET QUOTE"/>
+  </view>
+   <view class="view-column">
+   <tile-insurance-large srcPrimary="../../assets/images/funeralCover.png" textPrimary="Funeral cover for up to 15 family members" textSecondary="No paperwork, no medical exams, no blood tests, no brokers - just cover." textTertiary="GET QUOTE"/>
+   </view>
+  </view>
 </view>
