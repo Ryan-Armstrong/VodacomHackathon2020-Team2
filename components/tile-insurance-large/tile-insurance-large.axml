@@ -10,7 +10,7 @@
    <text class="text-16-grey-bold insurance-details">{{textSecondary}}</text>
     </view>
     <view class="view-column">
-       <text class="text-16-red quote">{{textTertiary}}</text>
+       <text class="text-16-red quote" onTap="onTap">{{textTertiary}}</text>
     </view> 
  </view>
 </view

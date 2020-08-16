@@ -9,7 +9,8 @@
     "pages/buyVoice/buyVoice",
     "pages/j4Town/j4Town",
     "pages/smartOffers/smartOffers",
-    "pages/insurance/insurance"
+    "pages/insurance/insurance",
+    "pages/deviceInsurance/deviceInsurance"
   ],
   "window": {
     "defaultTitle": "Just 4 You",
