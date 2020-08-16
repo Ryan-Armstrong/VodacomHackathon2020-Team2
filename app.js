@@ -3,6 +3,8 @@ App({
     selectedUser: {},
     selectedBundle: {},
     selectedExtraBundle: {},
+    selectedPhone: {},
+    selectedContract: {},
     users: [
       {
         name: "Greg",
@@ -152,7 +154,7 @@ App({
             amount: 109,
             valid: "30 days",
             validText: "For 30 days"
-          },
+          }
         ]
       },
       {
@@ -256,7 +258,7 @@ App({
           }
         ],
         voiceBundles: [
-           {
+          {
             bundleType: "Voice bundle",
             discount: 10,
             bundleSize: "60 minutes",
@@ -303,8 +305,213 @@ App({
             amount: 25,
             valid: "2 days",
             validText: "For 2 days (Voda to Voda)"
-          },
+          }
         ]
+      }
+    ],
+    phones: [
+      {
+        id: "SamNote20",
+        name: "Samsung Galaxy Note 20 5G 256GB",
+        url:
+          "https://content.vodacom.co.za/content/sales/devices/images/Samsung/Samsung-Galaxy-Note-20-5G-256GB-104050480-main-huge.png",
+        price: "from R769 - R2619"
+      },
+      {
+        id: "HuaMatePadT8",
+        name: "Huawei MatePad T8",
+        url:
+          "https://content.vodacom.co.za/content/sales/devices/images/Huawei/HUAWEI-MatePad-T8-108018983-front-large.png",
+        price: "from R199 - R1329"
+      },
+      {
+        id: "CatS42",
+        name: "CAT S42",
+        url:
+          "https://content.vodacom.co.za/content/sales/devices/images/Caterpillar/CAT-S42-104049896-front-large.png",
+        price: "from R449 - R2119"
+      },
+      {
+        id: "HuaP40Lite",
+        name: "Huawei P40 lite 5G",
+        url:
+          "https://content.vodacom.co.za/content/sales/devices/images/Huawei/HUAWEI-P40-lite-5G-104049827-front-large.png",
+        price: "from R349 - R2168"
+      },
+      {
+        id: "iPh11ProM",
+        name: "iPhone 11 Pro Max",
+        url:
+          "https://content.vodacom.co.za/content/sales/devices/images/Apple/iPhone-11-Pro-Max-64GB-104046453-front-large.png",
+        price: "from R999 - R3019"
+      },
+      {
+        id: "OneP7TPro",
+        name: "OnePlus 7T Pro",
+        url:
+          "https://content.vodacom.co.za/content/sales/devices/images/OnePlus/OnePlus-7T-Pro-104048587-front-large.png",
+        price: "from R749 - R2619"
+      }
+    ],
+    contracts: [
+      {
+        name: "Smart Data 1GB",
+        allocationA: "75 Min",
+        allocationB: "1GB",
+        details: [
+          "25 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R769 PM x 36"
+      },
+      {
+        name: "Smart S +",
+        allocationA: "200 Min",
+        allocationB: "600MB",
+        details: [
+          "200 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R819 PM x 36"
+      },
+      {
+        name: "Smart Data 2GB",
+        allocationA: "200 Min",
+        allocationB: "600MB",
+        details: [
+          "200 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R819 PM x 36"
+      },
+      {
+        name: "Smart Data 4GB",
+        allocationA: "150 Min",
+        allocationB: "4GB",
+        details: [
+          "25 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R969 PM x 36"
+      },
+      {
+        name: "Smart M +",
+        allocationA: "400 Min",
+        allocationB: "900MB",
+        details: [
+          "400 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R969 PM x 36"
+      }
+    ],
+    topUp: [
+      {
+        name: "Smart Top Up Data 1GB",
+        allocationA: "75 Min",
+        allocationB: "1GB",
+        details: [
+          "25 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R799 PM x 36"
+      },
+      {
+        name: "Smart Top Up S +",
+        allocationA: "200 Min",
+        allocationB: "650MB",
+        details: [
+          "200 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R849 PM x 36"
+      },
+      {
+        name: "Smart Top Up Data 2GB",
+        allocationA: "150 Min",
+        allocationB: "2GB",
+        details: [
+          "22500 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R899 PM x 36"
+      },
+      {
+        name: "Smart Top Up M +",
+        allocationA: "400 Min",
+        allocationB: "900MB",
+        details: [
+          "400 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R999 PM x 36"
+      },
+      {
+        name: "Smart Top Up Data 4GB",
+        allocationA: "150 Min",
+        allocationB: "4GB",
+        details: [
+          "25 SMSs",
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R1019 PM x 36"
+      }
+    ],
+    airtime: [
+      {
+        name: "uChoose Flexi 230",
+        allocationA: "R230 airtime",
+        details: [
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R769 PM x 36"
+      },
+      {
+        name: "uChoose Flexi 390",
+        allocationA: "R390 airtime",
+        details: [
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R869 PM x 36"
+      },
+      {
+        name: "uChoose Flexi 550",
+        allocationA: "R550 airtime",
+        details: [
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R989 PM x 36"
+      },
+      {
+        name: "uChoose Flexi 230",
+        allocationA: "R230 airtime",
+        details: [
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R999 PM x 24"
+      },
+      {
+        name: "uChoose Flexi 550",
+        allocationA: "R550 airtime",
+        details: [
+          "20GB Data once off",
+          "Get a free R1000 Woolworths shopping voucher"
+        ],
+        price: "R1389 PM x 24"
       }
     ]
   },

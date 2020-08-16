@@ -1,0 +1,149 @@
+.view-card {
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-radius: 8px;
+  width: 26vw;
+  height: 14vh;
+  margin-top: 2vh;
+  position: relative;
+  background-color: #fcfcfc;
+}
+
+.image-pd {
+  width: 35vw;
+  height: 40vh;
+  top: 2vh;
+  position: relative;
+}
+
+.text-title-pd {
+  position: relative;
+  display: block;
+  top: 2vh;
+  width: 100%;
+  text-align: center;
+}
+
+.line-1 {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 95%;
+  top: 4vh;
+  position: relative;
+}
+
+.line-2 {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 95%;
+  top: 8vh;
+  position: relative;
+}
+
+.line-3 {
+  border-bottom: 1px solid rgb(244, 244, 244);
+  width: 95%;
+  top: 18vh;
+  position: relative;
+}
+
+.text-price-pd {
+  position: relative;
+  display: block;
+  top: 6vh;
+  width: 100%;
+  text-align: center;
+}
+
+.text-order-device {
+  position: relative;
+  display: block;
+  top: 10vh;
+  left: 3vw;
+  width: 100%;
+  text-align: left;
+}
+
+.text-order-button {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.text-order-view {
+  top: 14vh;
+  border: 1px solid;
+  border-color: #c5c5c5;
+  border-radius: 4px;
+  padding: 2vw;
+}
+
+.order-button-selected {
+  border: 1px solid rgb(0, 124, 146) !important;
+  background-color: rgb(0, 124, 146) !important;
+  color: white;
+}
+
+.accordion {
+  color: rgb(68, 68, 68);
+  padding: 10px;
+  width: 90%;
+  text-align: left;
+  transition: 0.4s;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 4px;
+  margin-top: 2vh;
+}
+
+.card-view {
+  color: rgb(68, 68, 68);
+  padding: 10px;
+  width: 90%;
+  text-align: left;
+  transition: 0.4s;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 4px;
+  margin-top: 2vh;
+}
+
+.active,
+.accordion:hover {
+  border: 1px solid rgb(0, 124, 146) !important;
+  background-color: rgb(0, 124, 146) !important;
+  color: white;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: rgb(68, 68, 68);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.showPanel {
+  max-height: 55vh;
+}
+
+.view-accordion {
+  position: relative;
+  display: none;
+  top: 18vh;
+  width: 90%;
+  text-align: center;
+}
+
+.showOptions {
+  display: block;
+}

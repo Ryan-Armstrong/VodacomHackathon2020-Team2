@@ -1,0 +1,36 @@
+<view class="card-tc" onTap="onTap" data-index="{{index}}">
+  <view class="view-row contract-row justify-row-tc">
+    <view>
+      <image class="image-contract" mode="aspectFit" src="{{srcImage}}"/>
+    </view>
+    <view>
+      <text class="text-18-grey-bold text-phone-tc">{{phone}}</text>
+    </view>
+  </view>
+  <view class="view-line1-tc"/>
+  <view class="view-row contract-row">
+    <view class="contract-column">
+      <image class="image-minutes" mode="aspectFit" src="../../assets/images/minutes.png"/>
+      <text class="text-16-grey-bold text-allocation-a-tc">{{allocationA}}</text>
+    </view>
+    <view class="contract-column">
+      <image class="image-data" mode="aspectFit" src="../../assets/images/dataArrow.png"/>
+      <text class="text-16-grey-bold text-allocation-b-tc">{{allocationB}}</text>
+    </view>
+  </view>
+  <view class="view-row contract-row justify-center">
+    <text class="text-14-grey text-name-info1-tc">on</text>
+    <text class="text-14-grey-bold text-name-tc">{{name}}</text>
+    <text class="text-14-grey text-name-info2-tc">with:</text>
+  </view>
+  <view class="contract-column contract-extra">
+    <text class="text-14-grey text-details-a-tc">+ {{details[0]}}</text>
+    <text class="text-14-grey text-details-b-tc">+ {{details[1]}}</text>
+    <text class="text-14-grey text-details-c-tc">+ {{details[2]}}</text>
+  </view>
+  <view class="view-line2-tc"/>
+  <view class="view-row contract-row justify-center view-info">
+    <text class="text-14-grey text-name-info1-tc">for only</text>
+    <text class="text-14-grey text-name-tc">{{price}}</text>
+  </view>
+</view>

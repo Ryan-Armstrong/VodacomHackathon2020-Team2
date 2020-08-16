@@ -10,7 +10,7 @@
     </view>
     <tile-offer-large onTap="onJ4UTown" srcPrimary="../../assets/images/backgroundTown.jpg" srcSecondary="../../assets/images/homeOval.png" textPrimary="Just 4 You Town" textSecondary="Taylor-made deals in your location."/>
     <view class="view-row">
-      <tile-offer-medium onTap="onUpgradeTap" srcPrimary="../../assets/images/backgroundShake.jpg" srcSecondary="../../assets/images/shakeOval.png" textPrimary="Upgrades & New Lines" textSecondary="Shake to earn rewards."/>
+      <tile-offer-medium onTap="onUpgradeTap" srcPrimary="../../assets/images/backgroundUpgrade.jpg" srcSecondary="../../assets/images/shakeOval.png" textPrimary="Upgrades" textSecondary="Phones & other devices"/>
       <view>
         <tile-offer-small onTap="onJ4UDataTap" srcPrimary="../../assets/images/doubleArrow.png" textPrimary="Just 4 You Data"/>
         <tile-offer-small onTap="onFAQTap" srcPrimary="../../assets/images/questionMark.png" textPrimary="FAQ's"/>

@@ -45,6 +45,11 @@ view {
   width: 100%;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 .view-column {
   display: flex;
   flex-shrink: 0;
@@ -134,6 +139,12 @@ view {
   font-family: vodafone;
 }
 
+.text-16-grey-bold {
+  font-size: 16px;
+  color: #4a4a4a;
+  font-family: vodafone-bold;
+}
+
 .text-18-grey {
   font-size: 18px;
   color: #4a4d4e;
@@ -161,6 +172,12 @@ view {
 .text-21-white {
   font-size: 21px;
   color: #ffffff;
+  font-family: vodafone;
+}
+
+.text-20-grey {
+  font-size: 20px;
+  color: #666666;
   font-family: vodafone;
 }
 

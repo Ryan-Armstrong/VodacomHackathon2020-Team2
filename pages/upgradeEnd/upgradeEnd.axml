@@ -1,0 +1,12 @@
+<view class="view-container-main">
+  <view class="view-column">
+    <view>
+      <image class="image-success" mode="scaleToFill" src="../../assets/images/information.png"/>
+    </view>
+    <view class="view-column">
+      <text class="text-24-grey success">Please note</text>
+      <text class="text-16-grey text-success">An agent will contact you shortly.</text>
+      <button-primary class="button-success" textPrimary="OK" onTap="goJ4U"/>
+    </view>
+  </view>
+</view>

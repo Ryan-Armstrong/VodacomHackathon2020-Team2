@@ -1,0 +1,10 @@
+<view class="view-container-main contract-page">
+  <view class="view-column">
+    <tile-contract srcImage="{{selectedPhone.url}}" phone="{{selectedPhone.name}}" name="{{selectedContract[0].name}}" allocationA="{{selectedContract[0].allocationA}}" allocationB="{{selectedContract[0].allocationB}}" details="{{selectedContract[0].details}}" price="{{selectedContract[0].price}}", index="0" onTap="onContractSelect"/>
+    <tile-contract srcImage="{{selectedPhone.url}}" phone="{{selectedPhone.name}}" name="{{selectedContract[1].name}}" allocationA="{{selectedContract[1].allocationA}}" allocationB= "{{selectedContract[1].allocationB}}" details= "{{selectedContract[1].details}}" price= "{{selectedContract[1].price}}", index="0" onTap="onContractSelect"/>
+    <tile-contract srcImage="{{selectedPhone.url}}" phone="{{selectedPhone.name}}" name="{{selectedContract[2].name}}" allocationA="{{selectedContract[2].allocationA}}" allocationB= "{{selectedContract[2].allocationB}}" details= "{{selectedContract[2].details}}" price= "{{selectedContract[2].price}}", index="0" onTap="onContractSelect"/>
+    <tile-contract srcImage="{{selectedPhone.url}}" phone="{{selectedPhone.name}}" name="{{selectedContract[3].name}}" allocationA="{{selectedContract[3].allocationA}}" allocationB= "{{selectedContract[3].allocationB}}" details= "{{selectedContract[3].details}}" price= "{{selectedContract[3].price}}", index="0" onTap="onContractSelect"/>
+    <tile-contract srcImage="{{selectedPhone.url}}" phone="{{selectedPhone.name}}" name="{{selectedContract[4].name}}" allocationA="{{selectedContract[4].allocationA}}" allocationB= "{{selectedContract[4].allocationB}}" details= "{{selectedContract[4].details}}" price= "{{selectedContract[4].price}}", index="0" onTap="onContractSelect"/>
+  </view>
+</view>
+</view>

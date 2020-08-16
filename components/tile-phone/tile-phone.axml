@@ -1,0 +1,13 @@
+<view class="card-tp" onTap="onTap" data-index="{{index}}">
+  <view class="view-row phone-row">
+    <view>
+      <image class="image-phone" mode="aspectFit" src="{{srcPrimary}}"/>
+    </view>
+    <view class="view-column phone-column">
+      <text class="text-24-grey-bold text-primary-tp">{{textPrimary}}</text>
+      <text class="text-20-grey text-secondary-tp">{{textSecondary}}</text>
+    </view>
+  </view>
+  <view class="view-line-tp"/>
+  <text class="text-12-grey text-info-tp">{{textInfo}}</text>
+</view>

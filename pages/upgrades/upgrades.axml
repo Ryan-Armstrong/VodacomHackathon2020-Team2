@@ -1,0 +1,11 @@
+<view class="view-container-main voice-page">
+  <view class="view-column">
+    <tile-phone srcPrimary="{{phones[0].url}}" textPrimary="{{phones[0].name}}" textSecondary="{{phones[0].price}}" text-info="Add to compare" index="0" onTap="onPhoneSelect"/>
+    <tile-phone srcPrimary="{{phones[1].url}}" textPrimary="{{phones[1].name}}" textSecondary="{{phones[1].price}}" text-info="Add to compare" index="1" onTap="onPhoneSelect"/>
+    <tile-phone srcPrimary="{{phones[2].url}}" textPrimary="{{phones[2].name}}" textSecondary="{{phones[2].price}}" text-info="Add to compare" index="2" onTap="onPhoneSelect"/>
+    <tile-phone srcPrimary="{{phones[3].url}}" textPrimary="{{phones[3].name}}" textSecondary="{{phones[3].price}}" text-info="Add to compare" index="3" onTap="onPhoneSelect"/>
+    <tile-phone srcPrimary="{{phones[4].url}}" textPrimary="{{phones[4].name}}" textSecondary="{{phones[4].price}}" text-info="Add to compare" index="4" onTap="onPhoneSelect"/>
+    <tile-phone srcPrimary="{{phones[5].url}}" textPrimary="{{phones[5].name}}" textSecondary="{{phones[5].price}}" text-info="Add to compare" index="5" onTap="onPhoneSelect"/>
+  </view>
+</view>
+</view>

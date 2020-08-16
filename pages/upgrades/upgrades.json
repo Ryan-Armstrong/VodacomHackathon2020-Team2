@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tile-phone": "/components/tile-phone/tile-phone"
+  },
+  "defaultTitle": "Just 4 You Upgrades"
+}

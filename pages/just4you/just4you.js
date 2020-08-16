@@ -23,7 +23,7 @@ Page({
     my.navigateTo({ url: "/pages/j4Town/j4Town" });
   },
   onUpgradeTap(e) {
-    alert("Shake everyday");
+    my.navigateTo({ url: "/pages/upgrades/upgrades" });
   },
   onJ4UDataTap(e) {
     my.navigateTo({ url: "/pages/buyData/buyData" });

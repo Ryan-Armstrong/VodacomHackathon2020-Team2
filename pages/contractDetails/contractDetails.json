@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tile-contract": "/components/tile-contract/tile-contract"
+  },
+  "defaultTitle": "Just 4 You Contracts"
+}

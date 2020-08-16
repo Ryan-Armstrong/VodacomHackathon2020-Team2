@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "button-primary": "/components/button-primary/button-primary"
+  },
+  "defaultTitle": "Upgrades and New Lines"
+}
