@@ -145,6 +145,12 @@ view {
   font-family: vodafone-bold;
 }
 
+.text-16-red {
+  font-size: 16px;
+  color: #e60000;
+  font-family: vodafone;
+}
+
 .text-18-grey {
   font-size: 18px;
   color: #4a4d4e;

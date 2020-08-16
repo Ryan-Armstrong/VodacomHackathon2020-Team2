@@ -1,0 +1,12 @@
+<view class="view-container-main">
+<view class="view-column">
+<view>
+ <image class="info-image" mode="scaleToFill" src="../../assets/images/information.png"/> 
+</view>
+<view class="view-column">
+<text class="text-24-grey-bold info">Please note</text>
+<text class="text-16-grey-bold info-text">There are no current offers in this category.</text>
+  <button-primary class="info-button" textPrimary="Okay" onTap="J4U"/>
+</view>
+</view>
+</view>

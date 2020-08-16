@@ -12,7 +12,9 @@
     "pages/upgrades/upgrades",
     "pages/phoneDetails/phoneDetails",
     "pages/contractDetails/contractDetails",
-    "pages/upgradeEnd/upgradeEnd"
+    "pages/upgradeEnd/upgradeEnd",
+    "pages/insurance/insurance",
+    "pages/deviceInsurance/deviceInsurance"
   ],
   "window": {
     "defaultTitle": "Just 4 You",

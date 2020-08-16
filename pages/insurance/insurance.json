@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tile-insurance-large": "/components/tile-insurance-large/tile-insurance-large",
+    "header-main": "/components/header-main/header-main"
+  },
+
+  "defaultTitle": "Just 4 You Insurance"
+}

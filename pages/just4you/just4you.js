@@ -11,7 +11,7 @@ Page({
     my.navigateTo({ url: "/pages/buyVoice/buyVoice" });
   },
   onInsuranceTap(e) {
-    alert("Insurance");
+    my.navigateTo({ url: "/pages/insurance/insurance"});
   },
   onTicketTap(e) {
     my.navigateTo({ url: "/pages/buyTicket/buyTicket" });
