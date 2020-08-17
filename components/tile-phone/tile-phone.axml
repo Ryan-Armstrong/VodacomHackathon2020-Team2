@@ -9,5 +9,4 @@
     </view>
   </view>
   <view class="view-line-tp"/>
-  <text class="text-12-grey text-info-tp">{{textInfo}}</text>
 </view>

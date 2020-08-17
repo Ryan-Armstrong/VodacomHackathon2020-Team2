@@ -147,3 +147,7 @@
 .showOptions {
   display: block;
 }
+
+.padding-top {
+  padding-top: 1vh;
+}

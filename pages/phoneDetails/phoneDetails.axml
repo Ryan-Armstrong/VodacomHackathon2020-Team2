@@ -14,34 +14,34 @@
       <view class="demo-title text-18-grey-bold">How would you like to buy this device?</view>
       <view class="accordion text-16-grey" data-index="1" onTap="clickAccordion">I want to upgrade</view>
       <view class="panel {{accordionDisplay[0] == true ? 'showPanel' : ''}}">
-        <text class="text-16-grey-bold">Which type of contract are you looking for?</text>
+        <text class="text-16-grey-bold padding-top">Which type of contract are you looking for?</text>
         <view class="column card-view text-16-grey-bold" data-index="1" onTap="clickOption">
           <text class="text-14-grey-bold">Open contract</text>
-          <text class="text-14-grey">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
+          <text class="text-14-grey padding-top">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
         </view>
         <view class="column card-view text-16-grey-bold" data-index="2" onTap="clickOption">
           <text class="text-14-grey-bold">Topup contract with bundles</text>
-          <text class="text-14-grey">If you run out of data, minutes or SMSs, you’ll need to top up to get more. This gives you more control of your monthly bill.</text>
+          <text class="text-14-grey padding-top">If you run out of data, minutes or SMSs, you’ll need to top up to get more. This gives you more control of your monthly bill.</text>
         </view>
         <view class="column card-view text-16-grey-bold" data-index="3" onTap="clickOption">
           <text class="text-14-grey-bold">Topup contract with airtime</text>
-          <text class="text-14-grey">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
+          <text class="text-14-grey padding-top">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
         </view>
       </view>
       <view class="accordion text-16-grey" data-index="2" onTap="clickAccordion">I want this device with a contract</view>
       <view class="panel {{accordionDisplay[1] == true ? 'showPanel' : ''}}">
-        <text class="text-16-grey-bold">Which type of contract are you looking for?</text>
+        <text class="text-16-grey-bold padding-top">Which type of contract are you looking for?</text>
         <view class="column card-view text-16-grey-bold" data-index="1" onTap="clickOption">
           <text class="text-14-grey-bold">Open contract</text>
-          <text class="text-14-grey">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
+          <text class="text-14-grey padding-top">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
         </view>
         <view class="column card-view text-16-grey-bold" data-index="2" onTap="clickOption">
           <text class="text-14-grey-bold">Topup contract with bundles</text>
-          <text class="text-14-grey">If you run out of data, minutes or SMSs, you’ll need to top up to get more. This gives you more control of your monthly bill.</text>
+          <text class="text-14-grey padding-top">If you run out of data, minutes or SMSs, you’ll need to top up to get more. This gives you more control of your monthly bill.</text>
         </view>
         <view class="column card-view text-16-grey-bold" data-index="3" onTap="clickOption">
           <text class="text-14-grey-bold">Topup contract with airtime</text>
-          <text class="text-14-grey">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
+          <text class="text-14-grey padding-top">Continue using data, minutes and SMSs, even after it runs out. We’ll simply add the cost to your bill at the end of each month.</text>
         </view>
       </view>
       <view class="accordion text-16-grey" data-index="3" onTap="clickAccordion">I want this device without a contract</view>

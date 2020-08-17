@@ -378,14 +378,14 @@ App({
       },
       {
         name: "Smart Data 2GB",
-        allocationA: "200 Min",
-        allocationB: "600MB",
+        allocationA: "75 Min",
+        allocationB: "2GB",
         details: [
           "200 SMSs",
           "20GB Data once off",
           "Get a free R1000 Woolworths shopping voucher"
         ],
-        price: "R819 PM x 36"
+        price: "R869 PM x 36"
       },
       {
         name: "Smart Data 4GB",
@@ -438,7 +438,7 @@ App({
         allocationA: "150 Min",
         allocationB: "2GB",
         details: [
-          "22500 SMSs",
+          "200 SMSs",
           "20GB Data once off",
           "Get a free R1000 Woolworths shopping voucher"
         ],
