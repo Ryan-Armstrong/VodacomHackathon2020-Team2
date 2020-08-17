@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tile-faq": "/components/tile-faq/tile-faq",
+    "modal": "mini-antui/es/modal/index",
+    "button-secondary": "/components/button-secondary/button-secondary"
+  },
+  "defaultTitle": "Just 4 You FAQ"
+}

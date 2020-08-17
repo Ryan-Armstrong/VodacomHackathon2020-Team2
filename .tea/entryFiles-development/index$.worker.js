@@ -45,6 +45,9 @@ require('../../components/tile-ticket-bundle/tile-ticket-bundle?hash=05d2a9730dd
 require('../../components/tile-phone/tile-phone?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../components/tile-contract/tile-contract?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../components/tile-insurance-large/tile-insurance-large?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
+require('../../components/tile-faq/tile-faq?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
+require('../../node_modules/mini-antui/es/modal/index?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
+require('../../components/button-secondary/button-secondary?hash=05d2a9730dd6009bf9446182f9c985f40f8c0f43');
 require('../../pages/userSelect/userSelect?hash=a3af946dd54bfb7237124ca231e85e52743c3ad9');
 require('../../pages/just4you/just4you?hash=184eaf3498b80280dd59a61b474010c925c27f32');
 require('../../pages/buyData/buyData?hash=8ad62148dc6231314cad916b0a61c2533f90d895');
@@ -60,6 +63,7 @@ require('../../pages/contractDetails/contractDetails?hash=63ae5007001463e4d2adab
 require('../../pages/upgradeEnd/upgradeEnd?hash=a3af946dd54bfb7237124ca231e85e52743c3ad9');
 require('../../pages/insurance/insurance?hash=f200358a1ac29eae844fa07d7be6238cfc437047');
 require('../../pages/deviceInsurance/deviceInsurance?hash=a3af946dd54bfb7237124ca231e85e52743c3ad9');
+require('../../pages/faq/faq?hash=45ddb0c118d2c2df7df412abee124a88753b1037');
 }
 self.bootstrapApp ? self.bootstrapApp({ success }) : success();
 }

@@ -1,0 +1,23 @@
+<view class="view-container-main">
+  <view class="view-column">
+    <view a:for="{{faqs}}" a:for-index="idx" a:for-item="itemName">
+      <tile-faq textPrimary="{{itemName.question}}" index="{{idx}}" onTap="tapQuestion"/>
+    </view>
+  </view>
+  <modal show="{{modalOpened}}" onModalClose="onModalClose">
+    <view class="text-heading-fq">
+      <text class="text-16-white-bold ">FAQs</text>
+    </view>
+    <text class="text-14-grey-bold text-question-fq">{{currentQuestion}}</text>
+    <view class="modal-text-container">
+      <text class="text-14-grey text-answer-fq">{{currentAnswer}}</text>
+    </view>
+    <view>
+      <view slot="footer">
+        <view>
+          <button-secondary class="button-fq" textPrimary="Close" onTap="onModalClose" />
+        </view>
+      </view>
+    </view>
+  </modal>
+</view>

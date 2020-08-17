@@ -1,0 +1,24 @@
+.modal-text-container {
+  display: grid;
+  flex-direction: row;
+  place-content: center;
+  padding: 10px;
+}
+
+.text-question-fq {
+  margin-top: 1vh;
+}
+
+.text-answer-fq {
+}
+
+.button-fq {
+  width: 64vw;
+}
+
+.text-heading-fq {
+  color: white;
+  background-color: #e60000;
+  height: 7vh;
+  width: 100%;
+}

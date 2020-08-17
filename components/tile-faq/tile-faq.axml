@@ -1,0 +1,4 @@
+<view class="row card-tf text-16-grey-bold" data-index="{{index}}" onTap="onTap">
+  <text class="text-14-grey text-primary-tf">{{textPrimary}}</text>
+  <text class="text-24-red text-arrow-tf">></text>
+</view>

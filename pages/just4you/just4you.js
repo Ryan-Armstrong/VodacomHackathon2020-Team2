@@ -11,7 +11,7 @@ Page({
     my.navigateTo({ url: "/pages/buyVoice/buyVoice" });
   },
   onInsuranceTap(e) {
-    my.navigateTo({ url: "/pages/insurance/insurance"});
+    my.navigateTo({ url: "/pages/insurance/insurance" });
   },
   onTicketTap(e) {
     my.navigateTo({ url: "/pages/buyTicket/buyTicket" });
@@ -29,6 +29,6 @@ Page({
     my.navigateTo({ url: "/pages/buyData/buyData" });
   },
   onFAQTap(e) {
-    alert("FAQ");
+    my.navigateTo({ url: "/pages/faq/faq" });
   }
 });

@@ -1,0 +1,5 @@
+<view class="button-sec" onTap="onTap">
+  <view>
+    <text class="text-20-white text-primary-sec">{{textPrimary}}</text>
+  </view>
+</view>

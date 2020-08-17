@@ -513,6 +513,54 @@ App({
         ],
         price: "R1389 PM x 24"
       }
+    ],
+    faqs: [
+      {
+        question: "What is Vodacom Just 4 You?",
+        answer:
+          "Just 4 You provides exclusive offers that are tailor-made to what you love for voice, SMS, data as well as double your data bundles."
+      },
+      {
+        question: "How do I qualify for Just 4 You offers?",
+        answer:
+          "Just 4 You offers are available to all our individual Vodacom customers. Please note that Enterprise customers and Machine-2-Machine contracts do not qualify for Just 4 You offers."
+      },
+      {
+        question:
+          "Will I still be able to view my balances for Just 4 You bundles?",
+        answer:
+          "Yes, you can view your balances for specific Just 4 You bundles in the ‘Detail Balances’ section of the My Vodacom App."
+      },
+      {
+        question: "Why do my Just 4 You offers differ from time to time?",
+        answer:
+          "At Vodacom, we understand that your preferences change over time, so we continue to personalise your set of offers to be in line with what you love."
+      },
+      {
+        question: "How long do I need to wait to get my double data bundle?",
+        answer:
+          "Your additional data bundle should be allocated within 3 minutes of purchase, however, it can take up to 24 hours for the data to be allocated to you."
+      },
+      {
+        question:
+          "On my Double Your Data purchase, which data bundle will be used first?",
+        answer:
+          "Your 30-day personalised Double Your Data bundle will be used first. After the thirty days have passed, standard data rates will apply. Read full Just 4 You Terms and conditions"
+      },
+      {
+        question: "What are Smart Offers?",
+        answer:
+          "Vodacom’s Smart Offers are personalised offers that are provided to you when you are running out of data. The Smart Offers section of Just 4 You allows you to find these limited time offers even if you missed the SMS, App push or push USSD notification when it was originally sent."
+      },
+      {
+        question: "How long is my double data reward valid for?",
+        answer:
+          "Your double data reward will be valid for 30 days from the date of allocation. Should you not use your reward within this period, the data will be removed from your balance on the 30th day."
+      },
+      {
+        question: "How many Just 4 You offers can I purchase at a time?",
+        answer: "You may purchase as many offers as you like at a time."
+      }
     ]
   },
   onLaunch(options) {

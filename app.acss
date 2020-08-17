@@ -50,6 +50,11 @@ view {
   flex-direction: column;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .view-column {
   display: flex;
   flex-shrink: 0;
@@ -184,6 +189,12 @@ view {
 .text-20-grey {
   font-size: 20px;
   color: #666666;
+  font-family: vodafone;
+}
+
+.text-24-red {
+  font-size: 24px;
+  color: #e60000;
   font-family: vodafone;
 }
 
